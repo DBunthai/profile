@@ -1,4 +1,4 @@
-# baseURL: "https://dbunthai.github.io/profile"
+baseURL: "https://dbunthai.github.io/profile"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
@@ -55,7 +55,7 @@ Menus:
 params:
   title: "Hugo Profile"
   description: Text about my cool site
-  staticPath: &staticPath '' #/profile/
+  staticPath: &staticPath '/profile/'
   favicon: /fav.png
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between

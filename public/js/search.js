@@ -1,12 +1,12 @@
-var hostname = window.location + "";
-var contextPath = '';
-if (hostname.indexOf('github.io') < -1) {
-  contextPath = '/profile';
-}
+// var hostname = window.location + "";
+// var contextPath = '';
+// if (hostname.indexOf('github.io') < -1) {
+//   contextPath = '/profile';
+// }
 
-var base = document.createElement('base');
-base.href = window.location.origin + contextPath;
-document.head.appendChild(base);
+// var base = document.createElement('base');
+// base.href = window.location.origin + contextPath;
+// document.head.appendChild(base);
 
 
 async function searchOnChange(evt) {
