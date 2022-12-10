@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Profile</title>
+    <title>Bunthai DENG</title>
     <link>https://dbunthai.github.io/profile/</link>
-    <description>Recent content on Hugo Profile</description>
+    <description>Recent content on Bunthai DENG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Apr 2021 23:29:21 +0530</lastBuildDate><atom:link href="https://dbunthai.github.io/profile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 19:53:33 +0530</lastBuildDate><atom:link href="https://dbunthai.github.io/profile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Gallery</title>
       <link>https://dbunthai.github.io/profile/gallery/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://dbunthai.github.io/profile/gallery/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>a Content</title>
+      <link>https://dbunthai.github.io/profile/blogs/austin/</link>
+      <pubDate>Sun, 03 Apr 2022 19:53:33 +0530</pubDate>
+      
+      <guid>https://dbunthai.github.io/profile/blogs/austin/</guid>
+      <description>Hello world!</description>
     </item>
     
     <item>

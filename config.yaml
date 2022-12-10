@@ -1,6 +1,6 @@
 baseURL: "https://dbunthai.github.io/profile"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Bunthai DENG"
 theme: hugo-profile
 
 outputs:
@@ -53,8 +53,9 @@ Menus:
 
 # staticPath:  &staticPath "/profile"  # The path to serve the static files from
 params:
-  title: "Hugo Profile"
+  title: "Bunthai DENG"
   description: Text about my cool site
+  tags: ['']
   staticPath: &staticPath '/profile/'
   favicon: /fav.png
 
@@ -97,9 +98,10 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Bunthai DENG" # Brand name for the brand | default is the title variable
     disableSearch: false
     menus:
+      disableInformation: false
       disableAbout: false
       disableExperience: false
       disableEducation: false
@@ -111,10 +113,10 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
+    title: "Bunthai."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    image: /images/hero.PNG
     button:
       enable: true
       name: "Resume"
@@ -132,11 +134,15 @@ params:
           staticPath: *staticPath
           url: "https://example.com"
 
+  #Information
+  information:
+    enable: true
+
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    # image: "/images/me.png"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 
@@ -262,7 +268,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -281,7 +287,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile

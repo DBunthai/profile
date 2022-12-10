@@ -73,9 +73,14 @@
     }
 
     body::-webkit-scrollbar {
-        width: .5em;
+        width: 1.25em;
         height: .5em;
         background-color: var(--background-color);
+    }
+
+    body::-webkit-scrollbar-thumb:vertical {
+        height: 30px;
+        background-color: gainsboro !important;
     }
     
     ::-webkit-scrollbar-track {

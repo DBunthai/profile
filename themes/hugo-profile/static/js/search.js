@@ -28,14 +28,16 @@ async function searchOnChange(evt) {
     document.getElementById("search-content").style.left =
       searchButtonPosition.left + "px";
 
-    let searchJson = await fetch("/index.json").then((res) => res.json());
+    let searchJson = await fetch("/profile/index.json").then((res) => res.json());
     let searchResults = searchJson.filter((item) => {
       let res = false;
-      if (item.title && item.description && item.content) {
+      console.log(item);
+      if (item.title && item.description && item.content || (item.tags)) {
         res =
           item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
           item.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          item.content.toLowerCase().includes(searchQuery.toLowerCase());
+          item.content.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          (item.tags && item.tags.join('').toLowerCase().includes(searchQuery.toLowerCase()));
       } else if (item.title && item.description) {
         res =
           item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
