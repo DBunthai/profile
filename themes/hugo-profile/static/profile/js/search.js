@@ -1,6 +1,12 @@
-// var imported = document.createElement('script');
-// imported.src = 'my_customize.js';
-// document.head.appendChild(imported);
+var hostname = window.location + "";
+var contextPath = '';
+if (hostname.indexOf('github.io') < -1) {
+  contextPath = '/profile';
+}
+
+var base = document.createElement('base');
+base.href = window.location.origin + contextPath;
+document.head.appendChild(base);
 
 
 async function searchOnChange(evt) {
