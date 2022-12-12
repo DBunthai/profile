@@ -57,7 +57,8 @@ params:
   description: Text about my cool site
   tags: ['']
   staticPath: &staticPath '/profile/'
-  favicon: /fav.png
+  favicon: /images/avatar.png #/fav.png
+  hugoicon: fav.png
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -69,7 +70,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    defaultTheme: "light" # dark
+    # defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -112,10 +113,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Bunthai."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    intro: "Hello, I am"
+    title: "Bunthai"
+    subtitle: "I am a software developer"
+    content: "I enjoy developing applications both backend and frontend. <br> Just believe me, programming is fun &#128521;"
     image: /images/hero.PNG
     button:
       enable: true
@@ -125,14 +126,18 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
+        - icon: fab fa-linkedin
+          url: &mylinkedin https://www.linkedin.com/in/bunthai-deng-45890317b/
         - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          staticPath: *staticPath
-          url: "https://example.com"
+          url: &mytwitter https://twitter.com/bunthai_deng
+        - icon: fab fa-facebook
+          url: &myfacebook https://www.facebook.com/bunthaideng
+        - icon: fab fa-gitlab
+          url: &mygitlab https://gitlab.com/users/dengbunthai/activity
+      # customIcons:
+      #   - icon: /fav.png
+      #     staticPath: *staticPath
+      #     url: "https://example.com"
 
   #Information
   information:
@@ -342,23 +347,24 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    content: My inbox is always open &#128231; <a href="mailto:dengbunthai@gmail.com" class="mylink" target="_blank">dengbunthai&#64;gmail.com</a>. <br> Whether you have a question or just want to say hi, <br> I’ll try my best to get back to you!
+    email: dengbunthai@gmail.com
     btnName: Mail me
+
 
   footer:
     recentPosts:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      # gitlab: https://gitlab.com
+      linkedin: *mylinkedin #https://linkedin.com
+      twitter: *mytwitter #https://twitter.com
+      # instagram: https://instagram.com
+      facebook: *myfacebook #https://facebook.com
 
   # List pages like blogs and posts
   listPages:

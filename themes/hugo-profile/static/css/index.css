@@ -249,13 +249,13 @@ header .navbar.animate {
     line-height: 1.7rem !important;
 }
 
-#information a {
+#information a, .mylink {
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--primary-color) !important;
 }
 
-#information a::after {
+#information a::after, .mylink::after {
     content: "";
     display: block;
     width: 0px;
