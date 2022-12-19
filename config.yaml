@@ -154,7 +154,7 @@ params:
       I have been passing and learning through of those experiences from those companies, life is enjoyable if you give positive food to your mindset :D
     skills:
       enable: true
-      title: "I got some skills so far, and I love so much"
+      title: "I got some skills so far, and I love them so much"
       items:
         - "Java | Spring"
         - "JavaScript | TypeScript | Angular"
@@ -169,14 +169,50 @@ params:
     # title: "Custom Name"
     items:
       - job: "Backend Development Lead"
-        company: "TrueMoney"
+        company: TrueMoney
         companyUrl: "https://truemoney.com.kh/"
         date: "May 2022 - present"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        info:
+          enable: false
+          content: I worked as a software developer for more than one year in Amazon.          
+        content: > 
+          As a backend Software development and lead to deliver business and product such as e-wallets, money transfer, bill payment, cash-in/out and merchant payment in Cambodia
+          <ol type="I">
+            <li> Software Development & Lead         
+              <ul>
+                <li>Break down tasks </li>
+                <li>Design (Sequence diagram, tables) </li>
+                <li>Estimate project timeline </li>
+                <li>Implementations </li>
+                <li>Deploy to QA & Staging environment</li>
+              </ul>
+            </li>
+            <li> Scrum Master
+              <ul>
+                <li>Ensure there is no blocking during project development for scrum members </li>
+                <li>Organize sprint by completing active sprint and creating new sprint </li>
+                <li>Manage & Prioritize tasks </li>
+                <li>Prepare standing up morning meeting and weekly sprint planning </li>
+                <li>Support scrum members between product owners for unclear requirement </li>
+                <li>Negotiate timeline and deadline with product owners </li>
+                <li>Support and raise member’s concerns to the top management </li>
+                <li>Involve on UAT (non-Production Testing) and PVT (Production testing)</li>
+              </ul>
+            </li>
+            <li> Implemented Main Tasks
+              <ul>
+                <li> Link TrueMoney customer account to Bakong application (Backend)</li>
+                <li>Merchant payment integration with TrueMoney wallet (Backend)</li>
+                <li>Develop KHQR merchant payment from Bakong members (Backend)</li>
+                <li>Develop loan disbursement service for microfinance partners (Backend)</li>
+              </ul>
+            </li>
+          </ol>
+
 
       - job: "Full Stack Software Engineer "
         company: "Manulife"
@@ -186,28 +222,75 @@ params:
           enable: false
           url: "https://example.com"
         info:
-          enable: true
+          enable: false
           content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        content: >
+          As a full-stack software engineer develop core systems and in-house web applications to serve insurance businesses.
+          <ol type="I">
+            <li> Developer Responsibility
+              <ul>
+                <li>Analyze Requirement</li>
+                <li>Internal Design </li>
+                <li>Implementation (Add new features, fixing bugs, updating existing feature)</li>
+              </ul>
+            </li>
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+            <li> Implemented Main Tasks
+              <ul>
+                <li>Enhance to consolidate data in Core System (Oracle form & Oracle PLSQL)</li>
+                <li>Build Customer Web Service platform (Frontend)</li>
+                <li>Improve system security on Customer and Agency Web Service (Frontend)</li>
+                <li>Switching current file system integrate with Alfresco (API)</li>
+                <li>Oracle Data Patching (Oracle) </li>
+                <li>Lead user testing application after upgrade system</li>
+              </ul>
+            </li>
+          </ol>
+
 
       - job: "Senior Platform Developer"
         company: "PIPED BITS"
         companyUrl: "https://b-pb-cambodia-pbkh.beta.spiral-site.net/?_ifbs-inquiry_form=s1_Step1#"
         date: "Apr 2018 - Feb 2021"
         info:
-          enable: true
+          enable: false
         featuredLink:
           enable: false
           url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        content: >
+          As a senior full-stack developer, developing a cloud service called SPIRALv2 (CMS Platform, Data Storage, Email Service, Security, International) developed by Angular, Java-SpringBoot, BFF, Postgres, Docker, Microservice, Redis, Kong API Gateway, GitHub, etc
+          <ol type="I">
+            <li> Developer Responsibility
+              <ul>
+                <li>Analyze Requirement</li>
+                <li>Internal Design </li>
+                <li>Implementation (Add new features, fixing bugs, updating existing feature)</li>
+                <li>Code Review</li>
+                <li>Training Junior</li>
+              </ul>
+            </li>
+            
+            <li> Implemented Main Tasks
+              <ul>
+                <li>Refactor Angular project from eager to lazy loading</li>
+                <li>Implement File Upload in CMS (API & Server Side UI)</li>
+                <li>Implement ReCaptcha in CMS (API & Server Side UI)</li>
+                <li>Schedule Trigger & Schedule Trigger History (UI, API)</li>
+                <li>File Upload (UI)</li>
+                <li>Multi-Languages (UI, API)</li>
+                <li>Refactor (upgrade) admin project from Angular 4 to 7 (UI)</li>
+                <li>Domain Restriction (UI, API)</li>
+              </ul>
+            </li>
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+            <li> API Committee Chairman Responsibility
+              <ul>
+                <li>Assign API members to research useful technologies and lecture</li
+                <li>Meeting to solve the internal problems related to API</li
+                <li>Support API members</li
+              </ul
+            </li>
+          </ol>
 
       # - job: "UI/UX Designer"
       #   company: "Netflix"
@@ -234,42 +317,63 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Computer Science"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Royal University of Phnom Penh"
+          url: "http://www.rupp.edu.kh/"
+        date: "2014 - 2018"
+        # GPA: "3.9 out of 5.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          - 1st Year - Programming & General Knowledge
+          - 2nd Year - Programing, Development & General Knowledge
+          - 3rd Year - Development & Computer Architecture
+          - 4th Year - Web Development, Software Engineering
+          <!--I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
           - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
           - Face mask detection using a single convolutional neural network.
 
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.-->
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
-      - title: "High School"
+      - title: "Software Development Traning Scholarship"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Korea Software HRD Center"
+          url: "https://kshrd.com.kh/"
+        date: "2017 - 2018"
+        # GPA: "3.9 out of 5.0"
+        content: |-
+          - Nov 2017 - Feb 2018: Advance Course (4 months equals ~608h)
+            + Spring HATEOAS
+            + ORM with JPA and Hibernate, 
+            + Spring Data JPA, 
+            + Spring Data Rest, 
+            + OAuth2, etc
+          - Apr 2017 - Aug 2017: Basic Course (5 months equals ~800h)
+            + JAVA 	: 	J2SE (Basic Java and OOP concepts), Database (PostgreSQL)
+            + WEB 	: 	HTML, CSS, JavaScrip, Bootstrap , jQuery, AJAX
+            + SPRING 	: 	Spring Boot, JDBC Data Access, Spring RESTful API, Spring Security
+      - title: "General English"
+        school:
+          name: "Paññāsāstra University"
+          url: "http://www.puc.edu.kh/"
+        date: "2016 - 2017"
+        # GPA: "3.9 out of 5.0"
+        content: |- 
+          Graduated in General English 
+      - title: "School Life"
+        school:
+          name: "Sereisophorn High Shool"
+          url: "https://www.facebook.com/sereisophornhighschool"
+        date: "2002 - 2014"
+        # GPA: "Grade D (Bac II)"
+        content: |-
+          - High School from Grade 10 - 12 (2011 - 2014)
+          - Secondary School from Grade 7 - 9 (2008 - 2010)
+          - Primary School from Grade 1 - 6 (2002 - 2007)
 
   # Achievements
   achievements:
