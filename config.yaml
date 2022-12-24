@@ -119,7 +119,7 @@ params:
     content: "I enjoy developing applications both backend and frontend. <br> Just believe me, programming is fun &#128521;"
     image: /images/hero.PNG
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
       download: true

@@ -31,9 +31,9 @@
                 {{ if or (.Site.Params.favicon) (.Site.Params.navbar.brandLogo) }}
                 <img src="{{ .Site.Params.staticPath }}{{ .Site.Params.navbar.brandLogo | default .Site.Params.favicon }}" width="40" height="40"
                      class="d-inline-block align-top">
-                <span class="px-sm-2">{{ .Site.Params.navbar.brandName | default .Site.Params.title }}</span>
+                <span class="px-2">{{ .Site.Params.navbar.brandName | default .Site.Params.title }}</span>
                 {{ else }}
-                <span class="px-sm-2">{{ .Site.Params.navbar.brandName | default .Site.Params.title }}</span>
+                <span class="px-2">{{ .Site.Params.navbar.brandName | default .Site.Params.title }}</span>
                 {{ end }}
             </a>
 
