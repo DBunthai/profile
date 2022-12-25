@@ -5,6 +5,34 @@
     <link>https://dbunthai.github.io/profile/tags/</link>
     <description>Recent content in Tags on Bunthai DENG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://dbunthai.github.io/profile/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0700</lastBuildDate><atom:link href="https://dbunthai.github.io/profile/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>background</title>
+      <link>https://dbunthai.github.io/profile/tags/background/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0700</pubDate>
+      
+      <guid>https://dbunthai.github.io/profile/tags/background/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>history</title>
+      <link>https://dbunthai.github.io/profile/tags/history/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0700</pubDate>
+      
+      <guid>https://dbunthai.github.io/profile/tags/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>me</title>
+      <link>https://dbunthai.github.io/profile/tags/me/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0700</pubDate>
+      
+      <guid>https://dbunthai.github.io/profile/tags/me/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
